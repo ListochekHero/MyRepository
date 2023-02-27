@@ -3,5 +3,6 @@
 #include <iostream>
 int Foo(int a, int p) {
 	std::cout << "another message" << std::endl;
+	std::cout << "message for a test" << std::endl;
 	return pow(a,p);
 };
