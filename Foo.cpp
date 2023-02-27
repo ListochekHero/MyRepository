@@ -1,4 +1,5 @@
 #include "Foo.h"
-int Foo(int a) {
-	return a * a;
+#include <math.h>
+int Foo(int a, int p) {
+	return pow(a,p);
 };
